@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "app_name": "scheduled_functions",
+  "autogen_policy": false,
+  "lambda_memory_size":1024,
+  "lambda_timeout":600,
+  "stages": {
+    "dev": {}
+  },
+  "layers": [
+    "arn:aws:lambda:us-east-2:336392948345:layer:AWSSDKPandas-Python310:14"
+
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "resources": [
+    {
+      "name": "calculate_avgs_role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::136184392219:role/scheduled_functions-dev-calculate_avgs",
+      "role_name": "scheduled_functions-dev-calculate_avgs"
+    },
+    {
+      "name": "calculate_avgs",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-2:136184392219:function:scheduled_functions-dev-calculate_avgs"
+    },
+    {
+      "name": "calc_scheduler_role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::136184392219:role/scheduled_functions-dev-calc_scheduler",
+      "role_name": "scheduled_functions-dev-calc_scheduler"
+    },
+    {
+      "name": "calc_scheduler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-2:136184392219:function:scheduled_functions-dev-calc_scheduler"
+    },
+    {
+      "name": "calc_scheduler-event",
+      "resource_type": "cloudwatch_event",
+      "rule_name": "scheduled_functions-dev-calc_scheduler-event"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
