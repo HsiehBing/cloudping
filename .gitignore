@@ -1,9 +1,11 @@
 # ping_from_region
+
 ping_from_region/__pycache__/
 ping_from_region/.chalice/deployed/
 ping_from_region/.chalice/deployments/
 
 # scheduled_function
+
 scheduled_functions/__pycache__/
 scheduled_functions/.chalice/deployed/
 scheduled_functions/.chalice/deployments/
