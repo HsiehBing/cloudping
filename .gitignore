@@ -6,7 +6,7 @@ ping_from_region/.chalice/deployments/
 
 # scheduled_function
 
-scheduled_functions/__pycache__/
+/scheduled_functions/__pycache__/
 scheduled_functions/.chalice/deployed/
 scheduled_functions/.chalice/deployments/
 scheduled_functions/chalicelib/__pycache__/
@@ -15,6 +15,6 @@ scheduled_functions/chalicelib/__init__.py
 # frontend
 frontend/credentials
 
-tutorial-env/
+/tutorial-env/
 
 
