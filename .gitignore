@@ -1,17 +1,17 @@
 # ping_from_region
-/ping_from_region/__pycache__/
-/ping_from_region/.chalice/devployed/
-/ping_from_region/.chalice/deployments/
+ping_from_region/__pycache__/
+ping_from_region/.chalice/devployed/
+ping_from_region/.chalice/deployments/
 
 # scheduled_function
-/scheduled_functions/.chalice/devployed/
-/scheduled_functions/.chalice/deployments/
-/scheduled_functions/chalicelib/__pycache__/
-/scheduled_functions/chalicelib/__init__.py
+scheduled_functions/.chalice/devployed/
+scheduled_functions/.chalice/deployments/
+scheduled_functions/chalicelib/__pycache__/
+scheduled_functions/chalicelib/__init__.py
 
 # frontend
-/frontend/credentials
+frontend/credentials
 
-/tutorial-env/
+tutorial-env/
 
 
