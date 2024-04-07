@@ -4,6 +4,7 @@ ping_from_region/.chalice/devployed/
 ping_from_region/.chalice/deployments/
 
 # scheduled_function
+scheduled_functions/__pycache__/
 scheduled_functions/.chalice/devployed/
 scheduled_functions/.chalice/deployments/
 scheduled_functions/chalicelib/__pycache__/
